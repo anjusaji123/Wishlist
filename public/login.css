@@ -1,0 +1,39 @@
+.left
+{
+background-color:black;
+width: 95%;
+height	:85%;
+border-radius: 5%;
+margin-left:50px;
+margin-top:100px;
+}
+table
+{
+color:#764318;
+padding-left:550px;
+padding-top:50px;
+}
+button
+{
+	
+	color:black;
+	background-color:#764318;
+	height:75px;
+	width:175px;
+	border-radius:25px;
+	margin-top:50px;
+	margin-left:170px;
+	border: 1px solid #764318;
+	font-weight:bold;
+	font-size:20px;
+}
+body
+	{
+		
+	background-color:#764318;	
+		
+	}
+	#text
+{
+height:50px;
+}
