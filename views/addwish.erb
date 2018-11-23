@@ -1,0 +1,66 @@
+<html>
+<head>
+<link rel="stylesheet" href="addwish.css">
+<link rel="stylesheet" href="navbar.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+input[type="submit"]
+{
+	
+	color:black;
+	background-color:#764318;
+	height:75px;
+	width:175px;
+	border-radius:25px;
+	margin-top:25px;
+	margin-left:170px;
+	border: 1px solid #764318;
+	font-weight:bold;
+	font-size:20px;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="/home">Home</a></li>
+  <li><a href="#"> Add Wish</a></li>
+  <li><a href='/showwish'>Browse Wish</a></li>
+   <li style="float:right"><a href="#">Log Out</a></li>
+</ul>
+<div class="left">
+<form action="#" method="post">
+<table cellspacing="20">
+<tr><td> <h2>Wish name</h2></td>
+<td><input type="text" name="wishname" id="text"  size="32" required> 
+</td></tr>
+<tr><td><h2> Category </h2></td>
+<td>
+ <select name="catname">
+  <option name="education">Education</option>
+  <option name="fashion">Fashion</option>
+  <option name="acessories"> Home Accessories</option>
+  <option value="gadgets">Electronic Gadgets</option>
+ </select> 
+</td></tr>
+<tr><td><h2> Description</h2> </td>
+<td><textarea rows="4" cols="50" name="desc" required>
+</textarea>
+
+</td></tr>
+<tr><td>
+<input type="submit" value="ADD WISH" id="button">
+
+</td></tr>
+
+
+
+
+</table>
+</form>
+</div>
+</body>
+</html>

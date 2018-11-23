@@ -4,6 +4,22 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+input[type="submit"]
+{
+	
+	color:black;
+	background-color:#764318;
+	height:75px;
+	width:175px;
+	border-radius:25px;
+	margin-top:25px;
+	margin-left:170px;
+	border: 1px solid #764318;
+	font-weight:bold;
+	font-size:20px;
+}
+</style>
 </head>
 <body>
  <img src="signup-logotype-web-1.jpg" style="width:750px; height:160px;  margin-left:500px; border-radius:35%;">
@@ -15,46 +31,46 @@
 <td>
 <img src="signup.jpg" style="width:900px;height:740px; border-radius:5%;">
 </td></tr>
-<form action= '/submit'  method="post">
+<form action= "#"  method="post">
 <table align="center"  cellspacing="5"style="padding-top:50px;">
 <tr>
 <td>
 <h3> Name</h3>
-<input type="text" size="50" id="text"  placeholder="Enter name"  name="name" >
+<input type="text" size="50" id="text"  placeholder="Enter name"  name="name" required >
 </td>
 </tr>
 
 <tr>
 <td>
 <h3> Email</h3>
-<input type="email" size="50" id="text" placeholder="Enter  Email"  name="email">
+<input type="email" size="50" id="text" placeholder="Enter  Email"  name="email" required>
 </td>
 </tr>
 <br />
 <tr>
 <td>
 <h3> Password</h3>
-<input type="password" size="50" id="text" placeholder="Enter  Password"  name="password" >
+<input type="password" size="50" id="text" placeholder="Enter  Password"  name="password" required >
 </td>
 </tr>
 
 <tr>
 <td>
 <h3> Confirm-Password</h3>
-<input type="password" size="50" name="cpwd" placeholder="Retype the password"  id="text">
+<input type="password" size="50" name="cpwd" placeholder="Retype the password"  id="text" required>
 </td>
 </tr>
 <tr>
 <td>
 <h3> Phone-Number</h3>
-<input type="text" size="50" id="text" placeholder="Enter phone number" name="pno" >
+<input type="text" size="50" id="text" placeholder="Enter phone number" name="pno" required >
 </td>
 </tr>
 <tr><td>
-<button type="button">
-REGISTER
-</button></td></tr>
-<td  id="spec"><h3> Already have an account?? Click Here  To <a href="login.html" > SIGN IN </a></h3>
+<input type="submit" value="REGISTER" id="button">
+
+</td></tr>
+<td  id="spec"><h3> Already have an account?? Click Here  To <a href="/login" > SIGN IN </a></h3>
 </td></tr> 
 </table>
 </form>

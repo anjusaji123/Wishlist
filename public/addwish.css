@@ -1,0 +1,31 @@
+.left
+{
+background-color:black;
+width: 95%;
+height	:85%;
+border-radius: 5%;
+margin-left:50px;
+margin-top:50px;
+}
+table
+{
+color:#764318;
+padding-left:550px;
+padding-top:200px;
+
+}
+
+body
+	{
+		
+	background-color:#764318;	
+		
+	}
+	#text
+{
+height:50px;
+}
+h2
+{
+ color:#764318;
+}

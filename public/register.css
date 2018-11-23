@@ -19,25 +19,12 @@ height:50px;
 {
 
 width:100%;
-height:80%;
+height:85%;
 background-color:black;
 margin-top:25px;
 border-radius:50px;
 }
-button
-{
-	
-	color:black;
-	background-color:#764318;
-	height:75px;
-	width:175px;
-	border-radius:25px;
-	margin-top:25px;
-	margin-left:170px;
-	border: 1px solid #764318;
-	font-weight:bold;
-	font-size:20px;
-}
+
 a
 {
 	text-decoration:none;

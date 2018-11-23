@@ -1,0 +1,55 @@
+
+
+<html>
+<head>
+
+<link rel="stylesheet" href="showwish.css">
+  <link rel="stylesheet" href="navbar.css">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+button[type="button"]
+{
+
+height: 50px;
+width: 100px;
+background-color:#764318;
+color:black;
+font-weight:bold;
+border : 1px solid  #764318;
+}
+
+</style>
+<body>
+<ul>
+  <li><a class="active" href='/home'>Home</a></li>
+  <li><a href='/addwish'> Add Wish</a></li>
+  <li><a href='#'>Browse Wish</a></li>
+   <li style="float:right"><a href="#">Log Out</a></li>
+</ul>
+<%require_relative "../model1.rb"%>
+
+<table  cellspacing="2"  bgcolor="#dec19b" border="2"  align="center" cellpadding="5">
+<tr> 	
+	<th> Wish Name </th>
+	<th> Category </th>
+	<th> Description</th>
+	<th> Help</th>
+</tr>
+<%wish = Wish.all%>
+<%wish.each do |w|%>
+<tr>
+	<td><%=w.wish_name %></td>
+	<td><%=w.category%></td>
+	<td> <%=w.desc%></td>
+	<td><button type="button" >Help</button></td>
+ 
+</tr>
+<% end %>
+</table>
+
+</body>
+<html/>

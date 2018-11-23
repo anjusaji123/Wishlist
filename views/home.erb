@@ -1,0 +1,53 @@
+<html>
+<head>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="navbar.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<style>
+input[type="button"]
+{
+	
+	color:black;
+	background-color:#764318;
+	height:75px;
+	width:500px;
+	border-radius:25px;
+	margin-top:140px;
+	margin-left:150px;
+	border: 1px solid #764318;
+	font-weight:bold;
+	font-size:20px;
+}
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a class="active" href="#">Home</a></li>
+  <li><a href='/addwish'> Add Wish</a></li>
+  <li><a href='/showwish'>Browse Wish</a></li>
+   <li style="float:right"><a href="#">Log Out</a></li>
+</ul>
+
+
+<div class="left">
+<form action="#" method ="post"> 
+<table>
+<tr><td>
+<input type="button" value="ADD WISH" onclick="location.href='/addwish';">
+</td></tr>
+
+<tr><td>
+<input type="button" value="BROWSE WISH"  onclick="location.href='/showwish';"  id="submit">
+</td></tr>
+</table>
+
+</form>
+</div>
+</body>
+</html>

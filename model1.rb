@@ -1,5 +1,5 @@
 require_relative "dbconnect.rb" 
 
-class  User < ActiveRecord::Base  
+class  Wish  < ActiveRecord::Base  
  end  
 	
